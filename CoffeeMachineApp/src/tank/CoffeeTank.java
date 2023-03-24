@@ -1,5 +1,9 @@
 package tank;
 
+import coffeeenum.CoffeeBeanType;
+import exception.MaxCapacityReachedException;
+import exception.MinCapacityReachedException;
+
 public class CoffeeTank {
     private final int maxCapacity;
     private final CoffeeBeanType coffeeBeanType;
